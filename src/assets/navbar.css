@@ -1,3 +1,24 @@
-.navbar {
-    display: flex;
+#languages {
+  border: 0.1px solid black;
+  cursor: pointer;
+  padding: 0 0.3%;
+}
+
+#devis {
+  border: 0.1px solid black;
+  padding: 0.5% 1%;
+  background-color: #fffbed;
+  box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.32);
+}
+
+.little-logo {
+  width: 90px;
+  border: 1px solid black;
+  padding: 7%;
+  background-color: #ffff;
+}
+
+.little-logo-color {
+  background-color: #fffbed;
+  width: fit-content;
 }
