@@ -9,6 +9,8 @@ export default function Navbar() {
             <div className="flex">
               <p className="mr-10">contact@ponetteprod.com</p>
               <p>07 66 73 26 43</p>
+              <div>
+              </div>
             </div>
           </div>
         </div>
