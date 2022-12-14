@@ -3,7 +3,7 @@ import "../assets/navbar.css";
 export default function Navbar() {
   return (
     <>
-      <div>
+      <nav>
         <div className="container mx-auto my-5">
           <div className="flex justify-between">
             <div className="flex">
@@ -37,7 +37,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 }
