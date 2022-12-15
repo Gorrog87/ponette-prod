@@ -1,3 +1,6 @@
+import { BsFacebook } from "react-icons/bs/";
+import { GrInstagram } from "react-icons/gr";
+// import { FaBeer } from 'react-icons/fa';
 import "../assets/navbar.css";
 
 export default function Navbar() {
@@ -9,9 +12,16 @@ export default function Navbar() {
             <div className="flex">
               <p className="mr-10">contact@ponetteprod.com</p>
               <p>07 66 73 26 43</p>
-              <div>
-              </div>
             </div>
+              <div className="flex justify-end">
+                <a href="https://www.facebook.com/ponette.prod/" target="_blank" rel="noreferrer">
+                  <BsFacebook />
+                </a>
+                <a href="https://www.instagram.com/ponette_prod/" target="_blank" rel="noreferrer">
+                  <GrInstagram 
+                  className="ml-3"/>
+                </a>
+              </div>
           </div>
         </div>
         <hr></hr>
