@@ -21,6 +21,7 @@ export default function Hero() {
           <p>social media</p>
         </div>
       </div>
+      <div className="hero-video-transition"></div>
     </>
   );
 }

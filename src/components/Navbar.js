@@ -23,7 +23,7 @@ export default function Navbar() {
               </div>
           </div>
         </div>
-        <hr className="text-black"></hr>
+        <hr className=""></hr>
         <div className="flex justify-between md: relative">
           <div className="little-logo-color">
             <div className="little-logo md: absolute md: left-20 md: top-5 pl-1 pr-4 py-1">
@@ -36,14 +36,14 @@ export default function Navbar() {
             </div>
           </div>
           <div className="md:flex md:justify-end md:items-baseline md:my-10 mr-11 md: md:absolute md: right-0 md: top-0">
-            <p className="mx-4">Accueil</p>
-            <p className="mx-4">A propos</p>
-            <p className="mx-4">Savoir-faire</p>
-            <p className="mx-4">Portfolio</p>
-            <p className="mx-4">Nos client(e)s</p>
-            <p className="mx-4">F.A.Q.</p>
-            <p className="mx-4">Plus</p>
-            <button className="mx-4 btn-primary" id="">
+            <p className="mr-3">Accueil</p>
+            <p className="mr-3">A propos</p>
+            <p className="mr-3">Savoir-faire</p>
+            <p className="mr-3">Portfolio</p>
+            <p className="mr-3">Nos client(e)s</p>
+            <p className="mr-3">F.A.Q.</p>
+            <p className="mr-3">Plus</p>
+            <button className="btn-primary text-center" id="">
               Demander un devis
             </button>
           </div>
