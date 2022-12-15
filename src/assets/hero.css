@@ -1,0 +1,19 @@
+.hero {
+  height: 30rem;
+  width: 100%;
+  background-color: #fffbed;
+  /* =========================================== */
+  /* Cant't resolve the overlapping components so i used the relative / absplute positions to display them at the right place */
+  position: absolute;
+  top: 21%;
+  /* =========================================== */
+}
+
+.big-logo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: #ffff;
+  width: fit-content;
+  height: fit-content;
+}

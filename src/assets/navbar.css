@@ -1,8 +1,8 @@
-#languages {
+/* #languages {
   border: 0.1px solid black;
   cursor: pointer;
   padding: 0 0.3%;
-}
+} */
 
 .btn-primary {
   padding: 1%;
@@ -22,4 +22,12 @@
 
 .little-logo-color {
   border: 1% solid #fffbed;
+}
+
+hr {
+  color: black;
+}
+
+nav {
+  position: relative;
 }

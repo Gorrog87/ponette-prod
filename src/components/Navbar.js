@@ -1,6 +1,5 @@
 import { BsFacebook } from "react-icons/bs/";
 import { GrInstagram } from "react-icons/gr";
-// import { FaBeer } from 'react-icons/fa';
 import "../assets/navbar.css";
 
 export default function Navbar() {
@@ -24,14 +23,14 @@ export default function Navbar() {
               </div>
           </div>
         </div>
-        <hr></hr>
+        <hr className="text-black"></hr>
         <div className="flex justify-between md: relative">
           <div className="little-logo-color">
-            <div className="little-logo md: absolute md: left-20 md: top-5">
-              <div className="pr-3 pl-1">
+            <div className="little-logo md: absolute md: left-20 md: top-5 pl-1 pr-4 py-1">
+              <div className="">
                 <strong className="">Ponette</strong>
               </div>
-              <div className="text-start pl-1">
+              <div className="text-start">
                 <strong className="">prod.</strong>
               </div>
             </div>
