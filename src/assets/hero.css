@@ -17,3 +17,7 @@
   width: fit-content;
   height: fit-content;
 }
+
+.hero-video-transition {
+  position: relative;
+}
