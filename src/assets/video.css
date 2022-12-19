@@ -1,12 +1,12 @@
-.video {
+/* .video {
   position: absolute;
   top: 149%;
   left: 10%;
   height: 15rem;
-  width: 80%;
+  width: 80%; */
   /* # TODO -->  https://tailwindcss.com/docs/scroll-snap-type -> use mandatory element to display videos */
-}
+/* }
 
 .video-instagram-transition {
   position: relative;
-}
+} */
