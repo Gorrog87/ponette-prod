@@ -43,13 +43,13 @@ a {
 }
 
 .hero {
-  height: 30rem;
+  /* height: 30rem; */
   width: 100%;
-  background-color: #fffbed; 
+  background-color: #fffbed;   
   /* =========================================== */
   /* Cant't resolve the overlapping components so i used the relative / absolute positions to display them at the right place */
-  position: absolute;
-  top: 21%;
+  /* position: absolute;
+  top: 21%; */
   /* =========================================== */
 }
 
@@ -62,14 +62,14 @@ a {
   height: fit-content;
 }
 
-.hero-video-transition {
+/* .hero-video-transition {
   position: relative;
-}
+} */
 
-.instagram {
+/* .instagram {
   position: absolute;
   height: 30rem;
-}
+} */
 
 .btn-primary {
   padding: 1%;
@@ -96,22 +96,22 @@ hr {
   color: black;
 }
 
-nav {
+/* nav {
   position: relative;
-}
+} */
 
 .video {
-  position: absolute;
-  top: 149%;
+  /* position: absolute;
+  top: 149%; */
   left: 10%;
   height: 15rem;
   width: 80%;
   /* # TODO -->  https://tailwindcss.com/docs/scroll-snap-type -> use mandatory element to display videos */
 }
 
-.video-instagram-transition {
+/* .video-instagram-transition {
   position: relative;
-}
+} */
 
 @tailwind base;
 @tailwind components;

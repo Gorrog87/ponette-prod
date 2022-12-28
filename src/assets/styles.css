@@ -9,7 +9,7 @@
 } */
 
 .btn-primary {
-    padding: 1%;
+    padding: 0.5%;
     background-color: #fffbed;
     box-shadow: 3px 2px 9px -1px rgba(0,0,0,0.44);
     /* display: inline-block;  */
@@ -33,9 +33,9 @@
     color: black;
   }
   
-  nav {
+  /* nav {
     position: relative;
-  }
+  } */
 /*                                ---------------- */
 /* ============================== Navbar Component ================================== */
 /*                                ---------------- */
@@ -45,9 +45,9 @@
 /*                                -------------- */
 
 .hero {
-    height: 30rem;
+    /* height: 30rem; */
     width: 100%;
-    background-color: #fffbed;
+    /* background-color: #fffbed; */
     /* =========================================== */
     /* Cant't resolve the overlapping components so i used the relative / absplute positions to display them at the right place */
     /* position: absolute;
@@ -64,9 +64,9 @@
     height: fit-content;
   }
   
-  .hero-video-transition {
+  /* .hero-video-transition {
     position: relative;
-  }
+  } */
 
   /*                                -------------- */
   /* ============================== HERO Component ================================== */
@@ -78,17 +78,17 @@
 /*                                --------------- */
 
 .video {
-    position: absolute;
-    top: 149%;
-    left: 10%;
+    /* position: absolute;
+    top: 149%; */
+    /* left: 10%;
     height: 15rem;
-    width: 80%;
+    width: 80%; */
     /* # TODO -->  https://tailwindcss.com/docs/scroll-snap-type -> use mandatory element to display videos */
   }
   
-  .video-instagram-transition {
+  /* .video-instagram-transition {
     position: relative;
-  }
+  } */
 
 /*                                --------------- */
 /* ============================== Video Component ================================== */
@@ -100,10 +100,10 @@
 /* ============================== Instagram Component ================================== */
 /* /*                             ------------------*/
 
-.instagram {
+/* .instagram {
     position: absolute;
     height: 30rem;
-}
+} */
 
 /*                                ------------------*/
 /* ============================== Instagram Component ================================== */

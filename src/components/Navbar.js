@@ -1,11 +1,11 @@
-import { BsFacebook } from "react-icons/bs/";
-import { GrInstagram } from "react-icons/gr";
-import "../assets/navbar.css";
+// import { BsFacebook } from "react-icons/bs/";
+// import { GrInstagram } from "react-icons/gr";
+// import "../assets/navbar.css";
 
 export default function Navbar() {
   return (
     <>
-      <nav>
+      {/* <nav>
         <div className="container mx-auto my-5">
           <div className="flex justify-between">
             <div className="flex">
@@ -48,7 +48,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 }
